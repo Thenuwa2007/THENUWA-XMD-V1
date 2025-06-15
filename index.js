@@ -78,7 +78,7 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('THENUVA-XMD ᴄᴏɴᴇᴄᴛᴇᴅ✅')
+console.log('dilshan-md ᴄᴏɴᴇᴄᴛᴇᴅ✅')
   
 let up = `┏━━━━━━━━━━━━━━━┓
 ┃ 🤖 BOT       : DILSHAN MD BOT CONNECTED ✅
@@ -168,7 +168,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
             }
-if (senderNumber.includes ("94715603835")) {
+if (senderNumber.includes ("94772194789")) {
 if(isReact) return 
 m.react(`💀`)
 }      
@@ -219,9 +219,9 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("THENUVA XMD Bot running..✅💫");
+res.send("DILSHAN MD Bot running..✅💫");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
-}, 4000);  
+}, 4000);

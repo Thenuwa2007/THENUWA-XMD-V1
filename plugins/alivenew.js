@@ -13,17 +13,21 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `┏━❮ 🩵𝐃𝐈𝐋𝐒𝐇𝐀𝐍 𝐌𝐃🩵 ❯━
+        const status = `👋ℍ𝕖𝕝𝕝𝕠𝕨 *${pushname}*
+
+   🌟𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗧𝗛𝗘𝗡𝗨𝗩𝗔 𝗫𝗠𝗗 𝗕𝗢𝗧🌟     
+
+┏━❮ 🩵𝐓𝐇𝐄𝐍𝐔𝐕𝐀 𝐗𝐌𝐃🩵 ❯━
 ┃◈┃🤖 ʙᴏᴛ ɴᴀᴍᴇ :ᴅɪʟꜱʜᴀɴ ᴍᴅ
 ┃◈┃🔖 ᴠᴇʀsɪᴏɴ : 2.0.0 ʙᴇᴛᴀ
 ┃◈┃📟 ᴘʟᴀᴛғᴏʀᴍ : ʀᴇᴘʟɪᴛ
 ┃◈┃👨‍💻ᴏᴡɴᴇʀ: ᴅɪʟꜱʜᴀɴ ᴀꜱʜɪɴꜱᴀ
-
 ┃◈┃📆 ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())} 
 ┃◈┃📈ʀᴀᴍ ᴜsᴀɢᴇ: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ┃◈┗━━━━━━━━━━━━━━𖣔𖣔
 ╰──────────────┈⊷
-> ©Powerd By DILSHAN MD`;
+
+> ©ᴘᴏᴡᴇʀᴅ ʙʏ ᴄʏʙᴇʀ ᴛʜᴇɴᴜᴠᴀ xᴍᴅ`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 

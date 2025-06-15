@@ -18,7 +18,7 @@ const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
 
-const ownerNumber = ['94770664515']
+const ownerNumber = ['94715603835']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -78,7 +78,7 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('dilshan-md ᴄᴏɴᴇᴄᴛᴇᴅ✅')
+console.log('THENUVA-XMD ᴄᴏɴᴇᴄᴛᴇᴅ✅')
   
 let up = `┏━━━━━━━━━━━━━━━┓
 ┃ 🤖 BOT       : DILSHAN MD BOT CONNECTED ✅
@@ -168,7 +168,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
             }
-if (senderNumber.includes ("94772194789")) {
+if (senderNumber.includes ("94715603835")) {
 if(isReact) return 
 m.react(`💀`)
 }      
@@ -219,7 +219,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("DILSHAN MD Bot running..✅💫");
+res.send("THENUVA XMD Bot running..✅💫");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
